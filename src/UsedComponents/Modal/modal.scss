@@ -1,0 +1,64 @@
+.my-dialog {
+    .MuiDialog-paper {
+      border-radius: 10px;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      overflow: visible;
+    }
+    .modal {
+      position: relative;
+      .modal-head {
+        padding: 16px;
+        position: relative;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2 {
+          margin: 1rem 0;
+        }
+        p {
+          font: 700 normal 1rem/1.2rem "Nunito";
+          color: #969696;
+          max-width: 266px;
+          margin: 0 auto;
+          text-align: center;
+        }
+        .icon-close {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          cursor: pointer;
+          opacity: 0.75;
+          &::before {
+            color: #969696;
+            font-size: 1.2rem;
+          }
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
+      .modal-body {
+        padding: 16px;
+        background-color: #f4f4f4;
+      }
+      .top-ring {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        border: solid 4px #fff;
+        left: calc(50% - 40px);
+        top: -40px;
+        background-color: #e2e2e2;
+        width: 72px;
+        height: 72px;
+        i {
+          color: white;
+        }
+      }
+    }
+  }
+  

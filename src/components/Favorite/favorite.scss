@@ -1,0 +1,39 @@
+.favorite {
+  display: flex;
+  // align-items: center;
+  flex-direction: column;
+  border: 1px solid #cecece;
+  border-radius: 15px;
+  width: 100%;
+  h4 {
+    // font-size: 50px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    color: #333333;
+    margin: 5px;
+    text-align: center;
+    // margin-top: 30px;
+    // margin-bottom: 20px;
+    // margin-left: 20px;
+    text-transform: capitalize;
+  }
+  &_place {
+    display: flex;
+    // border: 1px solid red;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    &_name {
+      padding: 15px;
+      font-size: 18px;
+      // line-height: 30px;
+      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    }
+    &_info {
+      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+      font-weight: 400;
+      color: #333333;
+      margin: 10px;
+    }
+  }
+}

@@ -1,0 +1,96 @@
+.most_visit {
+  display: flex;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &_head {
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 15px;
+    h2 {
+      font-size: 50px;
+      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+      font-weight: 700;
+      color: #333333;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+  }
+  &_text {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 60%;
+    font-size: 19px;
+    line-height: 30px;
+  }
+  &_box {
+    display: flex;
+    // align-items: center;
+    background: rgb(255, 249, 240);
+    flex-direction: row;
+    box-shadow: 0px 0px 15px 1px #a57c59;
+    border-radius: 15px;
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    &_like {
+      // border: 1px solid black;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      cursor: pointer;
+      transition: 2.5s ease-out;
+
+      svg {
+        color: #cd191a !important;
+      }
+
+      input {
+        width: 50px;
+      }
+      // width: 50%;
+      p {
+        font-size: 20px;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-weight: 700;
+        color: #333333;
+        // margin-top: 30px;
+        // margin-bottom: 20px;
+        // margin-left: 20px;
+        text-transform: capitalize;
+        margin-left: 5px;
+        &:active {
+          transform: scale(1.1);
+        }
+      }
+    }
+    &_name {
+      font-size: 35px;
+      font-weight: 800;
+      padding-left: 15px;
+      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+      color: #333333;
+    }
+    &_info {
+      padding: 15px;
+      font-size: 18px;
+      line-height: 30px;
+      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    }
+    &_text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+}
+.most_visit_grid {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}

@@ -1,0 +1,32 @@
+.auth {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  display: grid;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  label {
+    color: #31973a;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  input {
+    width: 280px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    background-color: "grey";
+    opacity: 0.9;
+    color: #333333;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 15px;
+    margin: 10px 0 5px 0;
+    &:focus {
+      outline: none;
+    }
+    &::placeholder {
+      color: #333333;
+      font-weight: 500;
+    }
+  }
+}

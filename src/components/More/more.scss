@@ -1,0 +1,115 @@
+.more {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  &_head {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    color: #333333;
+    width: 90%;
+    height: 100px;
+    border-bottom: 1px solid #cecece;
+  }
+  &_info {
+    // padding: 15px;
+    font-size: 18px;
+    margin: 40px;
+    line-height: 30px;
+  }
+  &_section {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &_first {
+      // border: 1px solid #000;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      padding-bottom: 20px;
+      &_info {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        border-radius: 10px;
+        // background-color: rgba(35, 40, 45, 0.726);
+        background-color: #a57c59;
+        box-shadow: 0px 0px 50px 6px #a57c59;
+        color: #fff;
+        padding: 10px;
+        // border:1px solid #000;
+        width: 40%;
+        height: 200px;
+      }
+    }
+    &_second {
+      // border: 1px solid #000;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+      padding-bottom: 20px;
+      &_info {
+        padding-left: 30px;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        border-radius: 10px;
+        background-color: #a57c59;
+        box-shadow: 0px 0px 50px 6px #a57c59;
+        color: #fff;
+        width: 50%;
+        height: 200px;
+      }
+    }
+    &_third {
+      // border: 1px solid #000;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+      padding-bottom: 20px;
+      &_info {
+        padding-left: 30px;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        border-radius: 10px;
+        background-color: #a57c59;
+        box-shadow: 0px 0px 50px 6px #a57c59;
+        color: #fff;
+        width: 40%;
+        height: 200px;
+      }
+    }
+    &_fourth {
+      // border: 1px solid #000;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+      &_info {
+        padding-left: 30px;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        border-radius: 30px;
+        background-color: #a57c59;
+        box-shadow: 0px 0px 50px 6px #a57c59;
+        color: #fff;
+        width: 40%;
+        height: 200px;
+      }
+    }
+  }
+}

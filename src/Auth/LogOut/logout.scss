@@ -1,0 +1,28 @@
+// .logout {
+//   span {
+//     color: #ffffff;
+//     font-size: 15px;
+//     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+//     &:hover {
+//       text-decoration: underline;
+//       text-decoration-thickness: 2px;
+//       text-decoration-color: white;
+//     }
+//   }
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   width: 90px;
+//   height: 40px;
+//   border-radius: 25px;
+//   cursor: pointer;
+//   transition: all 0.3s;
+// }
+.link_logout {
+  background: #a57c59;
+  border-radius: 10px;
+  padding: 0 8px !important;
+}
+.header_logo_visit_logout {
+  color: white !important;
+}

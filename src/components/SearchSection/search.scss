@@ -1,0 +1,82 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 25vh;
+  &_main_block {
+    // margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: inherit;
+    &_item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      width: 25%;
+      margin-bottom: 10px;
+      // padding-left: 50px;
+      &_country {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 18vh;
+        height: 5vh;
+        border: 1px solid #a07452;
+        background-color: #a07452;
+        border-radius: 20px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        letter-spacing: 0.1em;
+      }
+      &_city {
+        margin-left: 2rem;
+        @extend .search_main_block_item_country;
+      }
+    }
+    &_input {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      width: inherit;
+      padding-top: 5px;
+      input {
+        width: 130vh;
+        font-size: 20px;
+        height: 7vh;
+        border: 0;
+        border-bottom: 2px solid white;
+        background: transparent;
+        color: white;
+        padding-left: 5px;
+        outline: none;
+        &::placeholder {
+          padding: 10px;
+          color: white;
+          font-size: 20px;
+        }
+      }
+    }
+    &_button {
+      width: 100px;
+      height: 35px;
+      //  background-color: #e6005c;
+
+      button {
+        border-radius: 10px;
+        color: white;
+        width: auto;
+        width: 100px;
+        height: 35px;
+        background-color: #e6005c;
+        cursor: pointer;
+      }
+    }
+  }
+}

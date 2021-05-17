@@ -1,0 +1,69 @@
+.register {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  display: flex;
+  // width: 50%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 94vh;
+  background: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../../assets/images/pic_signup.jpg");
+  background-size: cover;
+  &_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    color: white;
+    //  border:1px solid #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    margin: 10px;
+  }
+  &_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    //  border: 1px solid #fff;
+    background-color: white;
+    border-radius: 3px;
+    &_formik_button {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      opacity: 0.9;
+      button {
+        width: 100px;
+        height: 35px;
+        border: none;
+        color: white;
+        background: #31973a;
+        cursor: pointer;
+        &:focus {
+          outline: none;
+        }
+      }
+      &_error {
+        color: "#fff";
+        font-size: 20px;
+        padding-left: 10px;
+      }
+      h3 {
+        padding-left: 10px;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        color: rgb(47, 118, 209);
+        font-size: 15;
+        font-weight: 400;
+      }
+    }
+  }
+}
